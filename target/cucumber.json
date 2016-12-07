@@ -1,0 +1,204 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User wants to create an entry",
+        "description": "",
+        "id": "testing-hotel-management-platform;user-wants-to-create-an-entry",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4208119199,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I visit \"http://localhost:3003\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://localhost:3003",
+                  "offset": 9
+                }
+              ],
+              "location": "NavigationStepDefs.i_visit_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92255278,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click \"Login\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 9
+                }
+              ],
+              "location": "NavigationStepDefs.i_click_link(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1179831265,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I login to website",
+            "match": {
+              "location": "NavigationStepDefs.i_login_to_website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 435374472,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be on \"Hotel Management Platform\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hotel Management Platform",
+                  "offset": 16
+                }
+              ],
+              "location": "NavigationStepDefs.i_should_be_on_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 259619335,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter following data in text fields:",
+            "match": {
+              "location": "NavigationStepDefs.i_enter_following_data_in_text_fields(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "field",
+                  "value"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "hotelName",
+                  "aa"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "address",
+                  "aa"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "owner",
+                  "aa"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "phone",
+                  "aa"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "email",
+                  "aa"
+                ],
+                "line": 16
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52778623,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click on \"createHotel\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "createHotel",
+                  "offset": 12
+                }
+              ],
+              "location": "NavigationStepDefs.i_click_on_button(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1354796119,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should be able to delete(1) input hotel",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 27
+                }
+              ],
+              "location": "NavigationStepDefs.i_should_be_able_to_delete_input_hotel(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2638346828,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I should be entering multiple(5) values in page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 30
+                }
+              ],
+              "location": "NavigationStepDefs.i_should_be_entering_multiple_values_in_page(int)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Testing Hotel Management Platform",
+    "description": "",
+    "id": "testing-hotel-management-platform",
+    "keyword": "Feature",
+    "uri": "hmt.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@suite"
+      }
+    ]
+  }
+]
